@@ -5,7 +5,7 @@ class LaunchToolBar(rumps.App):
     def __init__(self):
         super(LaunchToolBar, self).__init__("CryptoBar")
         self.requestsModule = rq.requestModule()
-        self.selectedToken = "bitcoin"
+        self.selectedToken = "ethereum"
 
     @rumps.timer(2)
     def get_coin_price(self, _):
